@@ -1,0 +1,14 @@
+Laravel Cronjob Command
+
+* *	* *	* php /home/gangtask/public_html/artisan schedule:run >> /home/gangtask/public_html/cron_log1/myjob.txt 2>&1
+
+
+Cake PHP
+
+ */5  *    *    *    *  cd /full/path/to/app && Console/cake myshell myparam
+
+
+
+Any Server PHP CRON JOB
+
+wget -O - http://rupak.gangtask.com/crontest/index.php >> /home/rupak/public_html/crontest/cron_log/myjob.txt 2>&1
